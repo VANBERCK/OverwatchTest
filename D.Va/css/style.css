@@ -64,14 +64,27 @@ ul{
 /*****Les compétences*****/
 #Armes, #Capacités, #Ultime{
 	width:100%;
-	margin-bottom:5.0rem;
-	border-bottom:0.1rem solid black;
+	/*margin-bottom:5.0rem;*/
+	border-bottom:0.2rem solid black;
 }
-#Armes{
-	border-top:0.1rem solid black;
+#Armes, #Capacités, #Ultime{
+	margin-bottom:3.0rem;
+	border-top:0.2rem solid black;
 }
 #Armes{
 	background-image: url("../img/DVa Armement.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+#Capacités{
+	background-image: url("../img/DVa Capacités.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+#Ultime{
+	background-image: url("../img/DVa Ultime.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top center;
@@ -88,12 +101,12 @@ ul{
 	background-color:#92baf4;
 	border-radius:1.0rem;
 }
-#Fusio, #Pisto, #Turbo, #Matrice, #Auto, #AppelMéca{
+#Fusio, #Pisto, #Turbo, #Matrice, #AutoD, #AppelMéca{
 	width:7.0rem;
 	margin: auto;
 }
 
-#FusioC, #PistoL{
+#FusioC, #PistoL, #TurboR, #MatriceDef, #Auto, #Appel{
 	background-color:#00D681;
 	font-style:bold;
 	width:11.0rem;
@@ -102,7 +115,7 @@ ul{
 	border-radius:1.0rem;
 	padding:0.1rem;
 }
-#dFusioC, #dPistoL{
+#dFusioC, #dPistoL, #dTurboR, #dMatriceDef, #dAuto, #dAppel{
 	width:20.0rem;
 	text-align:center;
 	background-color:#feabe6;
@@ -125,12 +138,13 @@ ul{
 }
 #titre{
 	text-align:left;
+	text-decoration:underline;
+	color:#633633;
 }
 #map{
 	display:block;
 	padding-left:1.0rem;
 	padding-right:1.0rem;
-	
 }
 
 /*****Formulaire*****/
