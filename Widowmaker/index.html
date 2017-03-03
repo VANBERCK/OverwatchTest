@@ -5,13 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<title>Widowmaker Overwatch</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="img/LogoMercy.png">
-
+	<link rel="icon" href="img/LogoWidow.png">
+	<!--<embed src='music/Widowmaker Best Theme.mp3' hidden='false' autostart='true' loop='true' type='audio/mpeg'/>-->
+	<audio autoplay loop>
+		<source src="music/Widowmaker Best Theme.mp3" type="audio/mpeg"/>
+	</audio>
 </head>
 <body>
 <div id="header">
-	<img src="img/" alt="Logo" id="LogoWidow"/>
-	<img src="img/" alt="" id=""/>
+	<img src="img/LogoWidow.png" alt="Logo" id="LogoWidow"/>
+	<img src="img/One Shot.png" alt="OneShot" id="OSOK"/>
 	<div id="case">
 		<a id="Accueil" href="">Accueil</a>
 		<a id="Heros" href="">Héros</a>
@@ -25,50 +28,52 @@
 </div>
 <div id="imageback">
 </div>
-<h1>Biographie</h1>
-<p>Fatale est l’assassin parfait : une tueuse patiente, efficace et impitoyable qui ne laisse jamais transparaître aucune émotion ni le moindre remord.</br>
-On raconte que dans son ancienne vie, Fatale était l’épouse de Gérard Lacroix, un agent d’Overwatch responsable des opérations contre l’organisation terroriste appelée la Griffe. Après plusieurs tentatives infructueuses pour éliminer Gérard, la Griffe décida de s’en prendre à sa femme pour l’atteindre. Amélie fut kidnappée par ses agents et soumise à un programme intense de reformatage neuronal. Sa volonté fut balayée, sa personnalité effacée et elle fut reconditionnée pour être un agent dormant. Elle fut ensuite retrouvée par des agents d’Overwatch, apparemment sans séquelle, et renvoyée à sa vie civile.</br>
-Deux semaines plus tard, elle tuait Gérard dans son sommeil.</br>
-Une fois sa mission terminée, Amélie retourna auprès de la Griffe et ils achevèrent de la transformer en arme vivante. Elle reçut un entraînement intensif et des altérations physiologiques. Les battements de son cœur furent considérablement ralentis, ce qui donna une teinte bleutée à sa peau et inhiba sa capacité à ressentir des émotions humaines. Amélie n’existait plus.</br>
-Aujourd’hui, Fatale est l’assassin le plus efficace de la Griffe, et elle ne ressent plus rien hormis la satisfaction du travail bien fait.<br></p>
+<div id="bio">
+	<h1 id="chapitre">Biographie</h1>
+	<p>Fatale est l’assassin parfait : une tueuse patiente, efficace et impitoyable qui ne laisse jamais transparaître aucune émotion ni le moindre remord.</br>
+	On raconte que dans son ancienne vie, Fatale était l’épouse de Gérard Lacroix, un agent d’Overwatch responsable des opérations contre l’organisation terroriste appelée la Griffe. Après plusieurs tentatives infructueuses pour éliminer Gérard, la Griffe décida de s’en prendre à sa femme pour l’atteindre. Amélie fut kidnappée par ses agents et soumise à un programme intense de reformatage neuronal. Sa volonté fut balayée, sa personnalité effacée et elle fut reconditionnée pour être un agent dormant. Elle fut ensuite retrouvée par des agents d’Overwatch, apparemment sans séquelle, et renvoyée à sa vie civile.</br>
+	Deux semaines plus tard, elle tuait Gérard dans son sommeil.</br>
+	Une fois sa mission terminée, Amélie retourna auprès de la Griffe et ils achevèrent de la transformer en arme vivante. Elle reçut un entraînement intensif et des altérations physiologiques. Les battements de son cœur furent considérablement ralentis, ce qui donna une teinte bleutée à sa peau et inhiba sa capacité à ressentir des émotions humaines. Amélie n’existait plus.</br>
+	Aujourd’hui, Fatale est l’assassin le plus efficace de la Griffe, et elle ne ressent plus rien hormis la satisfaction du travail bien fait.<br></p>
+</div>
 <div id="Armes">
 	<h1 id="chapitre">Armement:</h1>
 	<ul id="Arme1">
-		<li><img src="img/" alt="" id=""/></li>
-		<li><h2 id=""></h2></li>
-		<li><p id=""></p></li>	
+		<li><img src="img/Baiser de la Veuve.png" alt="Baiser de la Veuve" id="Sniper"/></li>
+		<li><h2 id="Baiser">Baiser de la Veuve</h2></li>
+		<li><p id="dBaiser">Fatale est équipée d’un fusil polyvalent idéal pour abattre à la lunette les cibles les plus lointaines. Il peut aussi être utilisé en mode automatique sur les cibles à moyenne portée</p></li>	
 	</ul>
 </div>
 <div id="Capacités">
 	<h1 id="chapitre">Capacités:</h1>
-	<ul id="Capacité">
-		<li><img src="img/" alt="" id=""/></li>
-		<li><h2 id=""></h2></li>		
-		<li><p id=""></p></li>
+	<ul id="Capacité1">
+		<li><img src="img/Grappin.png" alt="Grappin" id="Grappin"/></li>
+		<li><h2 id="Grap">Grappin</h2></li>		
+		<li><p id="dGrap">Fatale peut envoyer un grappin vers la position qu’elle vise. Une fois le grappin arrimé, elle est rapidement attirée le long de son câble, ce qui lui permet d’améliorer sa visibilité du champ de bataille et d’esquiver ou de contourner des cibles.</p></li>
 	</ul>
 	<ul id="Capacité2">
-		<li><img src="img/" alt="" id=""/></li>	
-		<li><h2 id=""></h2></li>
-		<li><p id=""></p></li>
+		<li><img src="img/Mine.png" alt="Mine Venimeuse" id="Mine"/></li>	
+		<li><h2 id="MineV">Mine Venimeuse</h2></li>
+		<li><p id="dMineV">Fatale applique des mines venimeuses à armement rapide qui adhèrent à quasiment n’importe quelle surface. Lorsqu’une cible s’aventure à portée du détecteur de mouvement intégré à la mine, cette dernière explose en dégageant un gaz empoisonné qui affecte tous les ennemis à proximité.</p></li>
 	</ul>
 </div>
 <div id="Ultime">
 	<h1 id="chapitre">Ultime:</h1>
 	<ul id="Ultime1">
-		<li><img src="img/" alt="" id=""/></li>	
-		<li><h2 id=""></h2></li>
-		<li><p id=""></p></li>
+		<li><img src="img/Infravision.png" alt="Infravision" id="Infra"/></li>	
+		<li><h2 id="Infrav">Infravision</h2></li>
+		<li><p id="dInfrav">La visière de reconnaissance de Fatale lui permet de voir la signature thermique de ses cibles, même au travers des murs ou autres obstacles pendant un certain temps. Cette perception améliorée est partagée avec ses alliés.</p></li>
 	</ul>
 </div>
 <div id="part2">
 	<ul id="geo">
 		<li id="titre"><h2>Origine Géographique:</h2></li>
 		<li id="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86456.59681306228!2d8.466675111470304!3d47.37743366900345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2sZurich%2C+Suisse!5e0!3m2!1sfr!2sfr!4v1486731396098" width="100%" height=auto frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88866.32713667935!2d6.053514352760106!3d45.8898586056275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b8ffa1c0551c9%3A0x42781681620534ba!2sAnnecy!5e0!3m2!1sfr!2sfr!4v1488551792062" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</li>		
 	</ul>
 	<ul id="form">
-		<li id="titre"><h2></h2></li>	
+		<li id="titre"><h2>Une simple mort peut tout changer...:</h2></li>	
 		<li id="formulaire">
 			<form method="post">
 				<input type="text" name="Prenom" id="prenom" placeholder="Prénom"/>
@@ -78,7 +83,7 @@ Aujourd’hui, Fatale est l’assassin le plus efficace de la Griffe, et elle ne
 				<input type="mail" name="Mail" id="mail" placeholder="Adresse Mail"/>
 				<input type="file" name="fichier" id="photo"/>
 				<textarea name="Message" id="message" placeholder="Votre Message..."></textarea>
-				<input type="image" src="img/Wings.png"	name="Ok" id="ok"/>
+				<input type="image" src="img/spider.png"	name="Ok" id="ok"/>
 			</form>
 		</li>
 	</ul>

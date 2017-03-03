@@ -1,5 +1,5 @@
 body{
-	background-color:#feabe6;
+	background-color:#b1b4db;
 }
 p{
 	text-align:justify;
@@ -17,17 +17,17 @@ ul{
 }
 
 /*****Logo du Site*****/
-#LogoDVa{
+#LogoWidow{
 	display:block;
 	position:absolute;
-	width:5.0rem;
+	width:6.0rem;
 	float:left;
 }
 
 /****Logo-titre du site*****/
-#Nerf{
+#OSOK{
 	display:block;
-	width:10.0rem;
+	width:8.0rem;
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
@@ -50,10 +50,14 @@ ul{
 	height:3.5rem;
 }
 
+#bio{
+	margin-top:3.0rem;
+	margin-bottom:5.0rem;
+}
 /*****Image background*****/
 #imageback{
 	margin-top:1.0rem;
-	background-image: url("../img/DVa3.jpg");
+	background-image: url("../img/Widow3.png");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top center;
@@ -64,32 +68,36 @@ ul{
 /*****Les compétences*****/
 #Armes, #Capacités, #Ultime{
 	width:100%;
-	/*margin-bottom:5.0rem;*/
 	border-bottom:0.2rem solid black;
-}
-#Armes, #Capacités, #Ultime{
-	margin-bottom:3.0rem;
 	border-top:0.2rem solid black;
 }
+#Capacités{
+	margin-bottom:5.0rem;
+	margin-top:5.0rem;
+}
+#Armes, #Ultime{
+	text-align:center;
+	margin:auto;
+}
 #Armes{
-	background-image: url("../img/DVa Armement.png");
+	background-image: url("../img/Widow Armement.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top center;
 }
 #Capacités{
-	background-image: url("../img/DVa Capacités.jpg");
+	background-image: url("../img/Widow Competence.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top center;
 }
 #Ultime{
-	background-image: url("../img/DVa Ultime.jpg");
+	background-image: url("../img/Widow Ulti.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top center;
 }
-#Arme1, #Arme2, #Capacité1, #Capacité2, #Ultime1, #Ultime2{
+#Arme1, #Capacité1, #Capacité2, #Ultime1{
 	display:inline-block;
 	text-align:center;
 	margin-left:10.0rem;
@@ -98,33 +106,47 @@ ul{
 	padding:0.0rem;
 }
 #chapitre{
-	background-color:#92baf4;
+	text-align:left;
+	background-color:#30385f;
+	color:#ef1d1f;
 	border-radius:1.0rem;
 }
-#Fusio, #Pisto, #Turbo, #Matrice, #AutoD, #AppelMéca{
+#Sniper{
+	width:15.0rem;
+	margin:auto;
+}
+#Grappin, #Mine{
+	width:5.0rem;
+	margin:auto;
+}
+#Infra{
 	width:7.0rem;
 	margin: auto;
 }
-#FusioC, #PistoL, #TurboR, #MatriceDef, #Auto, #Appel{
-	background-color:#00D681;
+#Baiser, #Grap, #MineV, #Infrav{
+	background-color:#af5e9e;
 	font-style:bold;
-	width:11.0rem;
+	width:15.0rem;
 	margin: auto;
 	text-align:center;
 	border-radius:1.0rem;
 	padding:0.1rem;
 }
-#dFusioC, #dPistoL, #dTurboR, #dMatriceDef, #dAuto, #dAppel{
+#dBaiser, #dGrap, #dMineV, #dInfrav{
 	width:20.0rem;
 	text-align:center;
-	background-color:#feabe6;
-	padding:0.3rem;
+	background-color:#716e8e;
 	border-radius:1.0rem;
+	padding:0.2rem;
+}
+#dGrap, #dMinV{
+		padding:0.3rem;
 }
 
 /*****Origine Géo+Formulaire*****/
 #part2{
 	width:100%;
+	margin-top:3.0rem;
 }
 #geo, #form{
 	display:inline-block;
@@ -138,7 +160,7 @@ ul{
 #titre{
 	text-align:left;
 	text-decoration:underline;
-	color:#633633;
+	color:#ef1d1f;
 }
 #map{
 	display:block;
