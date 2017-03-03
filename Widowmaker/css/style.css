@@ -105,6 +105,9 @@ ul{
 	vertical-align:middle;
 	padding:0.0rem;
 }
+#Capacité1, #Capacité2{
+	width:40%;
+}
 #chapitre{
 	text-align:left;
 	background-color:#30385f;
