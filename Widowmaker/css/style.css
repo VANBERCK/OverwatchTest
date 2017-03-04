@@ -100,15 +100,19 @@ ul{
 #Arme1, #Capacité1, #Capacité2, #Ultime1{
 	display:inline-block;
 	text-align:center;
-	margin-left:10.0rem;
-	margin-right:10.0rem;
 	vertical-align:middle;
 	padding:0.0rem;
 }
+#Arme1, #Ultime1{
+	margin-left:10.0rem;
+	margin-right:10.0rem;
+}
 #Capacité1{	
+	margin-left:20.0rem;
 }
 #Capacité2{
 float:right;
+margin-right:20.0rem;
 }
 #chapitre{
 	text-align:left;
