@@ -92,10 +92,15 @@ ul{
 #Arme1, #Arme2, #Capacité1, #Capacité2, #Ultime1, #Ultime2{
 	display:inline-block;
 	text-align:center;
-	margin-left:10.0rem;
-	margin-right:10.0rem;
 	vertical-align:middle;
 	padding:0.0rem;
+}
+#Arme1, #Capacité1, #Ultime1{
+	margin-left:15.0rem;
+}
+#Arme2, #Capacité2, #Ultime2{
+	float:right;
+	margin-right:15.0rem;
 }
 #chapitre{
 	background-color:#92baf4;
