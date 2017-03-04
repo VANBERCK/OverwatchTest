@@ -105,8 +105,10 @@ ul{
 	vertical-align:middle;
 	padding:0.0rem;
 }
-#Capacité1, #Capacité2{
-	width:30%;
+#Capacité1{	
+}
+#Capacité2{
+float:right;
 }
 #chapitre{
 	text-align:left;
@@ -135,7 +137,7 @@ ul{
 	border-radius:1.0rem;
 	padding:0.1rem;
 }
-#dMinV, #dGrap{
+#dMineV, #dGrap{
 	width:100%;
 }
 #dBaiser, #dGrap, #dMineV, #dInfrav{
@@ -145,7 +147,7 @@ ul{
 	border-radius:1.0rem;
 	padding:0.2rem;
 }
-#dGrap, #dMinV{
+#dGrap, #dMineV{
 		padding:0.3rem;
 }
 
