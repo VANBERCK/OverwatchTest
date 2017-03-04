@@ -111,8 +111,13 @@ ul{
 	margin-left:15.0rem;
 }
 #Capacité2{
+<<<<<<< HEAD
 float:right;
 margin-right:15.0rem;
+=======
+	float:right;
+	margin-right:20.0rem;
+>>>>>>> 3cde051a6dfee090f1bbf373e425aa8f337bf18e
 }
 #chapitre{
 	text-align:left;
