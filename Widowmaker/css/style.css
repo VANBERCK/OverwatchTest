@@ -309,4 +309,7 @@ ul{
 	#geo{
 		border:none;
 	}
+	#prenom, #nom, #ville, #date,#message, #mail, #photo{
+		margin-left:0.0rem;
+	}
 }
