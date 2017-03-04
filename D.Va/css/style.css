@@ -36,11 +36,11 @@ ul{
 
 /*****Menu*****/
 #case{
+	float:right;
 	display:inline-block; 	
-	position:relative;
 	width:100%;
 	height:auto;
-	text-align:right;
+	/*text-align:right;*/
 }
 .formulaire{
 	display: inline-block;
@@ -186,4 +186,75 @@ ul{
 #footer p{
 	float:right;
 	padding-right:1.5rem;
+}
+
+
+/*****Responsive tablette****/
+@media screen and (max-width:800px){
+	max-width:80.0rem;
+	
+	p{
+		font-size:0.9rem;
+	}
+	h1{
+		font-size:2.0rem;
+	}
+	#titre{
+		font-size:0.9rem;
+	}
+	
+	/*****centrer le Logo et le menu****/	
+	#case{
+		text-align:center;
+	}
+	#LogoDVa, #case{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+		text-align:center;
+	}
+	
+	/*****Supression du logo-titre*****/
+	#Nerf{
+		display:none;
+		visibility:hidden;
+	}
+	
+	/*****Réarrangement des div des compétences*****/
+	#Arme1, #Capacité1, #Ultime1{
+		margin-left:2.0rem;
+	}
+	#Arme2, #Capacité2, #Ultime2{
+		float:none;
+		margin-left:2.0rem;
+		margin-right:1.0rem;
+	}
+
+	/*****Réarrangement du Formulaire*****/	
+	#prenom, #nom, #ville, #date,#message, #mail, #photo{
+		display:block;
+		width:100%;
+		margin-left:1.0rem;
+		float:none;
+	}
+	#form #titre{
+		margin-left:1.0rem;
+	}
+
+}
+
+@media screen and (max-width:480px){
+	max-width:48.0rem;
+	
+	#imageback{
+		background-position:center center;
+	}
+	#geo, #form{
+		display:block;
+		width:100%;
+	}
+	#geo{
+		border:none;
+	}
 }
