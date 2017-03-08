@@ -1,9 +1,9 @@
 body{
-	background-color:;
+	background-color:#584F4A;
 }
 p{
 	text-align:justify;
-	font-size:1.5rem;
+	font-size:1.2rem;
 }
 h1{
 	font-size:2.5rem;
@@ -14,15 +14,117 @@ ul{
 #header{
 	padding-bottom:1.0rem;
 	border-bottom:0.1rem solid black;
+	background-image:url("../img/persoOverwatch.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
 }
 
+/*****Logo du Site*****/
+#LogoOw{
+	display:block;
+	position:absolute;
+	width:5.0rem;
+	margin-left:0.5rem;
+	margin-top:0.5rem;
+	float:left;
+}
+
+/****Logo-titre du site*****/
+#Overwatch{
+	display:block;
+	width:24.0rem;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0rem;
+}
+
+/*****Menu*****/
+#case{
+	display:inline-block; 	
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:right;
+}
+.formulaire{
+	display: inline-block;
+}
+.formulaire.champ{
+	width:60.0rem;
+	height:3.5rem;
+}
+#Accueil, #Heros, #Contact{
+	color:#FAA02E;
+	font-size:1.2rem;
+	padding-right:0.3rem;
+	padding-left:0.3rem;
+	text-shadow:0.1rem 0.1rem 0.1rem black;
+	border-radius:1.0rem;
+	background-color:#584F4A;	
+}
+
+/****image de fond*****/
+#Attaquant{
+	background-image: url("../img/HerosOffensive.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height:auto;
+}
+#Défenseur{
+	background-image: url("../img/HerosDefensive.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height:auto;
+}
+#Tank{
+	background-image: url("../img/HerosTank.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height:auto;	
+}
+#Support{
+	background-image: url("../img/HerosSupport.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height:auto;		
+}
+/*****Titre*****/
+#titre{
+	text-shadow:0.2rem 0.2rem 0.2rem black, -0.2rem -0.2rem 0.2rem #FAA02E;
+	color:#FCBD49;
+	border-radius:1.0rem;
+	margin-left:0.2rem;
+	text-align:center;
+}
+/*****icone + description*****/
 #Info{
 	display: inline-block;
 	width:80%;
-	height:100%;
+	height:6.85rem;
 	text-align:center;
+	border:0.1rem solid black;
+	margin-bottom:2.0rem;
+	background-color:#132A4D;
+	opacity:0.9;
+	color:#FAA02E;
+	border-radius:2.0rem;
+}
+#port{
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+	float:left;
+	width:6.0rem;
+	height:6.85rem;
 }
 #McCree, #Fatale, #Dva, #Ange{
+	margin-top:1.0rem;
+	margin-bottom:7.0rem;
 	width:100%;
 }
 
@@ -36,13 +138,30 @@ ul{
 }
 #TitreD1{
 	margin-left:0.0rem;
-	margin-right:0.2rem;
+	margin-right:0.3rem;
 	text-decoration:underline;
 }
 #description{
 	margin-right:1.0rem;
 }
 
-#port, #Logo{
-	width:7.0rem;
+/*****Placement des Logos*****/
+#LogoMercy{
+	margin-right:0.7rem;
+}
+#LogoMccree, #LogoFatale{
+	margin-right:1.3rem;
+}
+#LogoDva{
+	margin-right:2.5rem;
+}
+#LogoMccree, #LogoFatale, #LogoMercy, #LogoDva{
+	float:right;
+	height:100%;
+	width:auto;
+}
+#LogoL{
+	float:right;
+	width:10%;
+	height:6.85rem;
 }
