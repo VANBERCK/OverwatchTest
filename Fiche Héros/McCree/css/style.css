@@ -50,3 +50,155 @@ ul{
 	width:60.0rem;
 	height:3.5rem;
 }
+
+/*****Image background*****/
+#imageback{
+	margin-top:1.0rem;
+	background-image: url("../img/McCree.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height:20.0rem;
+	padding-top:1.0rem;
+}
+
+/*****Les compétences*****/
+#competences{
+	width:100%;
+	margin-bottom:5.0rem;
+}
+#Armes, #Capacités, #Ultime{
+	width:100%;
+	/*margin-bottom:5.0rem;*/
+	border-bottom:0.2rem solid black;
+}
+#Armes, #Capacités, #Ultime{
+	margin-bottom:3.0rem;
+	border-top:0.2rem solid black;
+}
+#Ultime, #Armes{
+	text-align:center;
+	margin:auto;
+}
+#Ultime #chapitre, #Armes #chapitre{
+	text-align:left;
+}
+#Armes{
+	background-image: url("../img/McCree arme.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	margin-bottom:3.0rem;
+}
+#Capacités{
+	background-image: url("../img/McCree competence.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+#Ultime{
+	background-image: url("../img/McCree ultime.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+#Arme1, #Capacité1, #Capacité2, #Ultime1{
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	padding:0.0rem;
+}
+#Capacité1{
+	margin-left:15.0rem;
+}
+#Capacité2{
+	float:right;
+	margin-right:15.0rem;
+}
+#chapitre{
+	background-color:#ac9164;
+	border-radius:1.0rem;
+	color:white;
+}
+#Pacificateur, #Roulade,#Flash, #Implacable{
+	width:7.0rem;
+	margin: auto;
+}
+#pacif, #roul,#grenade, #ulti{
+	color:;
+	background-color:#c23f46;
+	font-style:bold;
+	width:11.0rem;
+	margin: auto;
+	text-align:center;
+	border-radius:1.0rem;
+	padding:0.1rem;
+}
+#Dpacif, #Droul,#Dgrenade, #Dulti{
+	width:20.0rem;
+	text-align:center;
+	color:white;
+	background-color:#c58c42;
+	padding:0.3rem;
+	border-radius:1.0rem;
+}
+
+/*****Origine Géo+Formulaire*****/
+#part2{
+	width:100%;
+}
+#geo, #form{
+	display:inline-block;
+	margin:0.0rem;
+	padding:0.0rem;
+	width:45%;
+}
+#geo{
+	border-right: 0.1rem solid black;
+}
+#titre{
+	text-align:left;
+}
+#map{
+	display:block;
+	padding-left:1.0rem;
+	padding-right:1.0rem;
+	
+}
+
+/*****Formulaire*****/
+#prenom, #nom, #ville, #date,#message, #mail, #photo{
+	margin-bottom:0.3rem;
+	margin-top:0.3rem;
+}
+#prenom,#nom{
+	display:inline-block;
+}
+#ville, #date{
+	display:inline-block;
+}
+#prenom, #date{
+	width:40%;
+	float:left;
+}
+#nom, #ville{
+	width:40%;
+	float:right;
+}
+#message, #mail, #photo{
+	width:100%;
+	height:auto;
+}
+#ok{
+	float:right;
+	width:5.0rem;
+}
+
+/*****Footer*****/
+#footer{
+	border-top:0.1rem solid black;
+}
+#footer p{
+	float:right;
+	padding-right:1.5rem;
+}
