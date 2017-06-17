@@ -164,13 +164,13 @@ ul{
 #LogoMercy{
 	margin-right:0.7rem;
 }
-#LogoMccree, #LogoFatale{
+#LogoMcCree, #LogoFatale{
 	margin-right:1.3rem;
 }
 #LogoDva{
 	margin-right:2.5rem;
 }
-#LogoMccree, #LogoFatale, #LogoMercy, #LogoDva{
+#LogoMcCree, #LogoFatale, #LogoMercy, #LogoDva{
 	float:right;
 	height:100%;
 	width:auto;
@@ -219,7 +219,7 @@ ul{
 		width:68%;
 	}
 	
-	#LogoFatale, #LogoMccree, #LogoMercy, #LogoDva{
+	#LogoFatale, #LogoMcCree, #LogoMercy, #LogoDva{
 		height:80%;
 	}
 }
@@ -242,7 +242,7 @@ ul{
 		height:4.5rem;
 		width:4.0rem;
 	}
-	#LogoFatale, #LogoMccree, #LogoMercy, #LogoDva{
+	#LogoFatale, #LogoMcCree, #LogoMercy, #LogoDva{
 		height:60%;
 	}
 	#LogoDva{
