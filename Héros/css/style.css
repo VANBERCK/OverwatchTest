@@ -40,6 +40,10 @@ ul{
 	margin-left:auto;
 	margin-right:auto;
 	padding:0rem;
+	padding-left:4.0rem;
+	padding-right:4.0rem;
+	background-color: rgba(250,250,250,0.6);
+	border-radius:1.0rem;
 }
 
 /*****Menu*****/
