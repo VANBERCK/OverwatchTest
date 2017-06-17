@@ -1,5 +1,7 @@
 body{
 	background-color:#584F4A;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 p{
 	text-align:justify;
@@ -108,7 +110,7 @@ ul{
 	border: 0.2rem solid black;	
 }
 /*****Titre*****/
-#titre{
+.titre{
 	text-shadow:0.1rem 0.1rem 0.1rem black, 0.1rem 0.2rem 0.1rem black, 0.1rem 0.3rem 0.1rem black, 0.1rem 0.4rem 0.1rem black, 0.1rem 0.5rem 0.1rem black;
 	color:#FCBD49;
 	border-radius:1.0rem;
@@ -116,7 +118,7 @@ ul{
 	text-align:center;
 }
 /*****icone + description*****/
-#Info{
+.Info{
 	display: inline-block;
 	width:80%;
 	height:6.85rem;
@@ -128,7 +130,7 @@ ul{
 	color:#FAA02E;
 	border-radius:2.0rem;
 }
-#port{
+.port{
 	padding-left:0.5rem;
 	padding-right:0.5rem;
 	float:left;
@@ -141,20 +143,20 @@ ul{
 	width:100%;
 }
 
-#TitreD, #TitreD1, #description{
+.TitreD, .TitreD1, .description{
 	display:inline-block;
 }
-#TitreD{
+.TitreD{
 	margin-left:1.0rem;
 	margin-right:0.2rem;
 	text-decoration:underline;
 }
-#TitreD1{
+.TitreD1{
 	margin-left:0.0rem;
 	margin-right:0.3rem;
 	text-decoration:underline;
 }
-#description{
+.description{
 	margin-right:1.0rem;
 }
 
@@ -173,8 +175,77 @@ ul{
 	height:100%;
 	width:auto;
 }
-#LogoL{
+.LogoL{
 	float:right;
 	width:10%;
 	height:6.85rem;
+}
+/*****Responsive tablette****/
+@media screen and (max-width:800px){
+	max-width:8.0rem;
+	
+	p{
+		font-size:0.9rem;
+	}
+	h1{
+		font-size:2.0rem;
+	}
+	#titre{
+		font-size:1.9rem;
+	}
+		/*****centrer le Logo et le menu****/	
+	#case{
+		text-align:center;
+	}
+	#LogoOw, #case{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+		text-align:center;
+	}
+	#LogoOw{
+		width:7.0rem;
+		margin-bottom:0.7rem;
+	}
+	
+	/*****Supression du logo-titre*****/
+	#Overwatch{
+		display:none;
+		visibility:hidden;
+	}
+	
+	.Info{
+		width:68%;
+	}
+	
+	#LogoFatale, #LogoMccree, #LogoMercy, #LogoDva{
+		height:80%;
+	}
+}
+
+@media screen and (max-width:480px){
+	max-width:48.0rem;
+	
+	p{
+		
+	}
+	#LogoOw{
+		width:5.0rem;
+		margin-bottom:0.7rem;
+	}
+	.Info{
+		display:none;
+		visibility:hidden;
+	}
+	.port{
+		height:4.5rem;
+		width:4.0rem;
+	}
+	#LogoFatale, #LogoMccree, #LogoMercy, #LogoDva{
+		height:60%;
+	}
+	#LogoDva{
+		margin-right:1.5rem;
+	}
 }
